@@ -347,18 +347,21 @@ footer {
 }
 
 .reveal {
-    opacity: 0;
-    transform: translateY(30px);
     transition: opacity .7s, transform .7s
 }
 
-.reveal.visivel {
+.js .reveal {
+    opacity: 0;
+    transform: translateY(30px)
+}
+
+.js .reveal.visivel {
     opacity: 1;
     transform: none
 }
 
 @media(prefers-reduced-motion:reduce) {
-    .reveal {
+    .js .reveal {
         opacity: 1;
         transform: none;
         transition: none
