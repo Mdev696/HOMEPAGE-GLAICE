@@ -1,6 +1,6 @@
 "use strict";
 // Gerado a partir de src/main.ts (rode "npm.cmd run build" para regenerar)
-const WHATSAPP = "5521999999999";
+const WHATSAPP = "5521975563003";
 const itens = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window) {
     document.documentElement.classList.add("js");

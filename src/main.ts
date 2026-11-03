@@ -1,5 +1,5 @@
 // CONFIGURE AQUI: DDI + DDD + número, só dígitos
-const WHATSAPP = "5521999999999";
+const WHATSAPP = "5521975563003";
 
 type Consulta = "Online" | "Presencial";
 
